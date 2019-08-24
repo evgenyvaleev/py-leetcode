@@ -28,6 +28,7 @@ class Solution1:
                         
         return catch_pos
 
+
 class Solution2:
     def strStr(self, haystack: str, needle: str) -> int:
         if needle == '':

@@ -1,6 +1,6 @@
 class Solution:
     def isValid(self, s: str) -> bool:
-        pairs = { '(': ')', '{': '}', '[': ']'}
+        pairs = {'(': ')', '{': '}', '[': ']'}
         openings = ['(', '{', '[']
         
         stack = []
